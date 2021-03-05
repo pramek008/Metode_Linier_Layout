@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounddua"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="272dp"
+        android:layout_height="147dp"
+        app:srcCompat="@drawable/avatarnone" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/tEmail"
+        android:inputType="textPersonName"
+        android:text="@string/tEmail"
+        android:textColor="#9E9898" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/tPassword"
+        android:textColor="#9E9898" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#F5B971"
+        android:text="@string/tsignin"
+        android:textColor="#1D1A67" />
+
+</LinearLayout>
